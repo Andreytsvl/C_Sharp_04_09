@@ -117,8 +117,7 @@ using System;
 // Console.Clear();
 // Console.Write("Введите число a: ");
 // int a = int.Parse(Console.ReadLine());
-// float x = a % 2;
-// if (x==0)
+// if (a % 2==0)
 // {
 //     Console.WriteLine("True");
 // }
@@ -127,11 +126,24 @@ using System;
 //     Console.WriteLine("False");
 // }
 
-task_DZ_5
+//task_DZ_5
 Console.Clear();
 Console.Write("Введите число a: ");
 int a = int.Parse(Console.ReadLine());
-
+int i = 1;
+while (i <= a)
+{
+    if (i % 2==0)
+    {
+        Console.Write(i);
+        Console.Write(' ');
+        i = i + 1;
+    }    
+    else
+    {
+        i = i + 1;
+    }
+}
 
 
 
