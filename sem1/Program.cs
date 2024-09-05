@@ -63,12 +63,74 @@
 // }
 
 // task5
+// Console.Clear();
+// Console.Write("Введите число a: ");
+// int a = int.Parse(Console.ReadLine());
+// float x = a % 10;
+// Console.Write(x);
+
+// task_DZ_2
+using System;
+
+// Console.Clear();
+// Console.Write("Введите число a: ");
+// int a = int.Parse(Console.ReadLine());
+// Console.Write("Введите число b: ");
+// int b = int.Parse(Console.ReadLine());
+// if (a > b)
+// {
+//     Console.WriteLine("а больше б");
+// }
+// else
+// {
+//     if (b > a)
+//     {
+//         Console.WriteLine("а меньше б");
+//     }
+//     else
+//     {
+//         Console.WriteLine("они равны");
+//     }
+// }
+
+
+// task_DZ_3
+// Console.Clear();
+// Console.Write("Введите число a: ");
+// int a = int.Parse(Console.ReadLine());
+// Console.Write("Введите число b: ");
+// int b = int.Parse(Console.ReadLine());
+// Console.Write("Введите число c: ");
+// int c = int.Parse(Console.ReadLine());
+// int max = a;
+// if (b > max)
+// {
+//     max = b;
+// }
+// if (c > max)
+// {
+//     max = c;
+// }
+// Console.WriteLine($"Макмимальное число = {max}");
+
+// task_DZ_4
+// Console.Clear();
+// Console.Write("Введите число a: ");
+// int a = int.Parse(Console.ReadLine());
+// float x = a % 2;
+// if (x==0)
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
+
+task_DZ_5
 Console.Clear();
 Console.Write("Введите число a: ");
 int a = int.Parse(Console.ReadLine());
-float x = a % 10;
-Console.Write(x);
-
 
 
 
