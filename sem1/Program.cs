@@ -1,4 +1,4 @@
-﻿// task1
+﻿// task1 Программа, которая выдаёт квадрат числа
 // Console.Clear();
 // Console.Write("Введите число: ");
 // int number = int.Parse(Console.ReadLine());
@@ -8,7 +8,8 @@
 // int sqr1 = Convert.ToInt32(Math.Pow(number,3));
 // Console.WriteLine($"Куб числа = {sqr1}");
 
-// task2
+// task2 Напишите программу, которая проверяет, является 
+// ли первое число квадратом второго
 // Console.Clear();
 // Console.Write("Введите число a: ");
 // int a = int.Parse(Console.ReadLine());
@@ -23,7 +24,8 @@
 //     Console.WriteLine("нет");
 // }
 
-// task3
+// task3 Напишите программу, которая будет выдавать 
+// название дня недели по номеру.
 // Console.Clear();
 // Console.Write("Введите число: ");
 // int n = int.Parse(Console.ReadLine());
@@ -50,7 +52,7 @@
 //     }
 // } 
 
-// task4
+// task4 Программа, которая выводит числа от - Н до Н.
 // Console.Clear();
 // Console.Write("Введите число a: ");
 // int a = int.Parse(Console.ReadLine());
@@ -62,14 +64,14 @@
 //     i = i + 1;
 // }
 
-// task5
+// task5 программа, которая показывает последнюю цифру числа
 // Console.Clear();
 // Console.Write("Введите число a: ");
 // int a = int.Parse(Console.ReadLine());
 // float x = a % 10;
 // Console.Write(x);
 
-// task_DZ_2
+// task_DZ_2 программа, которая сравнивает числа
 using System;
 
 // Console.Clear();
@@ -94,7 +96,7 @@ using System;
 // }
 
 
-// task_DZ_3
+// task_DZ_3 Программа, которая ищет максимум из трех чисел
 // Console.Clear();
 // Console.Write("Введите число a: ");
 // int a = int.Parse(Console.ReadLine());
@@ -113,7 +115,7 @@ using System;
 // }
 // Console.WriteLine($"Макмимальное число = {max}");
 
-// task_DZ_4
+// task_DZ_4 Проверяет число на чётность.
 // Console.Clear();
 // Console.Write("Введите число a: ");
 // int a = int.Parse(Console.ReadLine());
@@ -126,7 +128,7 @@ using System;
 //     Console.WriteLine("False");
 // }
 
-//task_DZ_5
+//task_DZ_5 Показывает все чётные от 1 до Н
 Console.Clear();
 Console.Write("Введите число a: ");
 int a = int.Parse(Console.ReadLine());
